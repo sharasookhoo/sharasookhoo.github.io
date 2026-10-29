@@ -1,31 +1,27 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
+name: "Shara Sookhoo"
+title: "PhD Candidate"
+institution: "niversity of California, Berkeley"
+email: sharasoohkoo@berkeley.edu
 photo: headshot.jpg  # place your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
-  orcid: ""
-  twitter: ""
-  linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf"
+  google_scholar: "https://scholar.google.com/citations?user=fwZ8mNoAAAAJ&hl=en"
+  github: "https://github.com/sharasookhoo"
+  orcid: "0009-0007-7784-3494"
 
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
 accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
-dark_mode: true              # set to false to disable dark mode entirely
+dark_mode: false             # set to false to disable dark mode entirely
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Shara's personal website"
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
@@ -47,14 +43,14 @@ analytics:
 # Each name is a page in _pages/. Add `label: Papers` to change the
 # navbar text without changing the URL.
 nav_pages:
-  - name: about
-  - name: publications
-  - name: talks
+#  - name: about
+#  - name: publications
+#  - name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blog
+#  - name: software
+#  - name: team
+#  - name: teaching
+#  - name: blog
 
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
@@ -62,8 +58,8 @@ nav_pages:
 # Your name is bolded in the publication list. Write it exactly as it
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
-  last_name: Feynman
-  first_name: ["R. P.", "R."]
+  last_name: Sookhoo
+  first_name: ["S. Y.", "S."]
   style: citesty
   locale: en
   source: /assets/
