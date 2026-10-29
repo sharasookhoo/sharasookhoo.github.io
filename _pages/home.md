@@ -8,17 +8,12 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Electrodynamics</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Path Integrals</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Superfluidity</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Parton Model</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Quantum Computing</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Nanotechnology</a>
+<span class="chip">Coral Microbial Ecology</span>
+<span class="chip">Coral Disease</span>
+<span class="chip">Virology</span>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals, like us, host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes like Symbiodiniaceae. Some of 
 
 <div class="callout callout-success" markdown="0">
 <div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
