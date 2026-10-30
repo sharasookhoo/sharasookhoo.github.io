@@ -13,31 +13,20 @@ permalink: /
 <span class="chip">Virology</span>
 </div>
 
-I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals, like us, host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes like Symbiodiniaceae. Some of 
-
-<div class="callout callout-success" markdown="0">
-<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
+I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes like Symbiodiniaceae. Some of these microorganisms play key roles in coral health. For example, through photosynthesis, Symbiodiniaceae provide the majority of coral's energy. Viruses can infect the coral animal as well as their microbes. I am interested in whether viral infection of mutualistic microbes can lead to a loss of function and a reduction in host health.
 
 <div class="banner-frame" markdown="0">
 <img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<div class="banner-caption">Viral infection of Symbiodiniaceae by Betaflexiviridae, a family of filamentous single stranded RNA viruses, may lead to white plague disease development (Sookhoo et al., in prep). Viral relpication dinoRNAVs, a group of icosahedral single stranded RNA viruses, that infect Symbiodiniaceae is triggered by heat stress and may contribute to coral bleaching (Howe-Kerr et al., 2023)</div>
 </div>
 
-{% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
-{% if selected contains "pub-entry" %}
+#{% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
+#{% if selected contains "pub-entry" %}
 ## Selected publications
 
-<div class="section-card selected-pubs" markdown="0">
-{{ selected }}
-<p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
-</div>
-{% endif %}
+#<div class="section-card selected-pubs" markdown="0">
+#{{ selected }}
+#<p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
+#</div>
+#{% endif %}
 
-## About me
-
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
