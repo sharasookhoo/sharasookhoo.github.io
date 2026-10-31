@@ -11,8 +11,8 @@ permalink: /research/
 <div class="research-card">
 <img src="{{ '/images/research/qed.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Feynman diagram">
 <div class="research-body">
-<h2 class="research-title">Quantum Electrodynamics</h2>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h2 class="research-title">Viruses Associated with White Plague Disease</h2>
+<p class="research-desc">I use transcriptomics and TEM to identify viruses associated with white plague disease. preliminary results show that </p>
 </div>
 </div>
 
