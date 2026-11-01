@@ -44,3 +44,13 @@ I am interested in the role of viruses in coral health and disease. Viruses are 
 I was born and grew up in Trinidad and Tobago, two small islands in the Caribbean. At seven years old, I decided that I wanted to be a marine biologist because I wanted to go to the beach everyday. Today, I'm a graduate student in Collaboration for Ocean Futures lab at UC Berkeley, where I study the role of microbes in coral health.
 
 Outside of work, I am learning French; je suis le cours de français 3. I like to read fantasy, sci-fi and dystopia, cuddle with Potato (my roommate's cat), and watch crappy TV.
+
+## Selected Awards
+**National Open Scholarship in Sciences**  
+*August 2020 – May 2024*
+Received a highly competitive scholarship awarded by the Government of Trinidad and Tobago in recognition of outstanding academic achievement (approximately US$48,000 annually).
+
+**Linda Farmer Research Award**  
+*October 2023*
+Received the department's highest undergraduate research award ($2,500) for a selected research proposal.
+
