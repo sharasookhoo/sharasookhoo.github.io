@@ -54,3 +54,4 @@ Received a highly competitive scholarship awarded by the Government of Trinidad 
 *October 2023*
 Received the department's highest undergraduate research award ($2,500) for a selected research proposal.
 
+<p><a href="{{ '/awards' | relative_url }}">See all awards &rarr;</a></p>
