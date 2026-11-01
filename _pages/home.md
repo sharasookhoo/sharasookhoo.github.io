@@ -8,9 +8,9 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ '/research' | relative_url }}" class="chip">Coral Microbial Ecology</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Coral Disease</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Virologyy</a>
+<span class="chip">Coral Microbial Ecology</span>
+<span class="chip">Coral Disease</span>
+<span class="chip">Virology</span>
 </div>
 
 I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes like Symbiodiniaceae. Some of these microorganisms play key roles in coral health. For example, through photosynthesis, Symbiodiniaceae provide the majority of coral’s energy. Viruses can infect the coral animal as well as their microbes. I am interested in whether viral infection of these mutualist microbes can reduce their function and lead to coral health decline.
