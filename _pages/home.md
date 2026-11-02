@@ -13,7 +13,9 @@ permalink: /
 <span class="chip">Virology</span>
 </div>
 
-I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes like Symbiodiniaceae. Some of these microorganisms play key roles in coral health. For example, through photosynthesis, Symbiodiniaceae provide the majority of coral’s energy. Viruses can infect the coral animal as well as their microbes. I am interested in whether viral infection of these mutualist microbes can reduce their function and lead to coral health decline.
+I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes. Some of these microorganisms play key roles in coral health. For example photosynthesizing dinoflagellates in the family Symbiodiniaceae provide the majority of coral’s energy. We know that viruses infect these symbionts, but we don't know much about the outcome of these infections at the microbe or coral level. It is possible that infected symbionts produce less beneficial products and lower the coral's tolerance to stressors. It is also possible that viral infection causes symbionts to become pathogenic and leads to coral disease. Conversely, viruses may also facilitate horizontal gene transfer of advantageous traits to mutualistic microbes and increase coral resilience. I am interested in uncovering these various effects of symbiont viral infection both at the level of the microbe and the coral using a combination of traditional techniques such as viral isolation and transmission, as well as cutting edge technologies like single cell RNA sequencing.
+
+<p><a href="{{ '/research' | relative_url }}">See my research &rarr;</a></p>
 
 {% comment %}
 <div class="callout callout-success" markdown="0">
@@ -43,15 +45,4 @@ I am interested in the role of viruses in coral health and disease. Viruses are 
 
 I was born and grew up in Trinidad and Tobago, two small islands in the Caribbean. At seven years old, I decided that I wanted to be a marine biologist because I wanted to go to the beach everyday. Today, I'm a graduate student in Collaboration for Ocean Futures lab at UC Berkeley, where I study the role of microbes in coral health.
 
-Outside of work, I am learning French; je suis le cours de français 3. I like to read fantasy, sci-fi and dystopia, cuddle with Potato (my roommate's cat), and watch crappy TV.
-
-## Selected Awards
-**National Open Scholarship in Sciences**  
-*August 2020 – May 2024*
-Received a highly competitive scholarship awarded by the Government of Trinidad and Tobago in recognition of outstanding academic achievement (approximately US$48,000 annually).
-
-**Linda Farmer Research Award**  
-*October 2023*
-Received the department's highest undergraduate research award ($2,500) for a selected research proposal.
-
-<p><a href="{{ '/awards' | relative_url }}">See all awards &rarr;</a></p>
+<p><a href="{{ '/awards' | relative_url }}">Read more about me &rarr;</a></p>
