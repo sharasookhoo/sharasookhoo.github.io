@@ -1,11 +1,11 @@
-# News items shown on the home page sidebar.
-# The 3 most recent are shown; all appear on /allnews.
-# Each entry needs: date, headline
 - date: 18 August, 2026
   headline: "Shara presents at the 20th International Symposium on Microbial Ecology"
+  image: "isme2026.jpg"
 
 - date: 11 May, 2026
   headline: "The Collaboration for Ocean Solutions Lab (COSL) heads to Moorea for fieldwork"
+  image: "moorea-fieldwork.jpg"
 
-  - date: 11 May, 2026
+- date: 11 May, 2026
   headline: "Shara passes her qualifying exams and becomes a PhD Candidate"
+  image: "qualifying-exams.jpg"
