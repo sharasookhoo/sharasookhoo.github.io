@@ -15,7 +15,7 @@ permalink: /
 
 I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes. Some of these microorganisms play key roles in coral health. For example photosynthesizing dinoflagellates in the family Symbiodiniaceae provide the majority of coral’s energy. We know that viruses infect these symbionts, but we don't know much about the outcome of these infections at the microbe or coral level. It is possible that infected symbionts produce less beneficial products and lower the coral's tolerance to stressors. It is also possible that viral infection causes symbionts to become pathogenic and leads to coral disease. Conversely, viruses may also facilitate horizontal gene transfer of advantageous traits to mutualistic microbes and increase coral resilience. I am interested in uncovering these various effects of symbiont viral infection both at the level of the microbe and the coral using a combination of traditional techniques such as viral isolation and transmission, as well as cutting edge technologies like single cell RNA sequencing.
 
-<p><a href="{{ '/research' | relative_url }}">See my research &rarr;</a></p>
+<p><a href="{{ '/research' | relative_url }}">Read more about my research &rarr;</a></p>
 
 {% comment %}
 <div class="callout callout-success" markdown="0">
@@ -26,7 +26,7 @@ I am interested in the role of viruses in coral health and disease. Viruses are 
 
 <div class="banner-frame" markdown="0">
 <img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
-<div class="banner-caption">Viral infection of Symbiodiniaceae by Betaflexiviridae, a family of filamentous single stranded RNA viruses, may lead to white plague disease development (Sookhoo et al., in prep). Viral relpication dinoRNAVs, a group of icosahedral single stranded RNA viruses, that infect Symbiodiniaceae is triggered by heat stress and may contribute to coral bleaching (Howe-Kerr et al., 2023)</div>
+<div class="banner-caption">Viral infection of Symbiodiniaceae by Betaflexiviridae, a family of filamentous single stranded RNA viruses, may lead to white plague disease development (Sookhoo et al., in prep). Viral replication of dinoRNAVs, a group of icosahedral single stranded RNA viruses, that infect Symbiodiniaceae is triggered by heat stress and may contribute to coral bleaching (Howe-Kerr et al., 2023)</div>
 </div>
 
 {% comment %}
