@@ -67,9 +67,16 @@ permalink: /about/
 
 <style>
 .section-card {
+  display: block;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  margin: 0 0 24px 0;
+}
+
+.section-card ul {
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 24px;
 }
 
 .pi-card {
@@ -91,7 +98,14 @@ permalink: /about/
   min-width: 0;
 }
 
+.awards-list {
+  padding-left: 1.5em;
+  margin-right: 0;
+}
+
 .awards-list li {
+  width: 100%;
+  box-sizing: border-box;
   margin-bottom: 12px;
 }
 
