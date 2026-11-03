@@ -1,21 +1,20 @@
-# Awards and honors, shown on the About page.
-# Each entry needs: name
+
 - name: "Department of Environmental Science, Policy and Management Starter Grant Award"
   date: "Dec 2024"
-  description: "Research proposal was identified as one of the top six submitted from the cohort ($2500)."
+  description: "$2,500"
 
 - name: "Linda Farmer Research Award"
   date: "Oct 2023"
-  description: "Research proposal was selected for the most prestigious departmental undergraduate award ($2500)."
+  description: "$2,500"
 
 - name: "Toppel Internship Fund"
   date: "May 2022"
-  description: "Awarded $2000 by the Toppel Career Center at the University of Miami to cover living costs while interning at the Coral Health and Disease Lab, Mote Marine Laboratory and Aquarium"
+  description: "$2,000"
 
 - name: "President’s Award"
   date: "Aug 2020 – May 2024"
-  description: "Awarded $30,000 annually towards tuition fees in recognition of outstanding academic achievement at the University of Miami"
+  description: "$30,000 annually"
 
 - name: "National Open Scholarship in Sciences"
   date: "Aug 2020 – May 2024"
-  description: "Received a highly competitive scholarship awarded by the Government of Trinidad and Tobago in recognition of outstanding academic achievement (~$48000 annually)."
+  description: "~$48,000 annually"
