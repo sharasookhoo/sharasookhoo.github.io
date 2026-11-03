@@ -43,7 +43,7 @@ analytics:
 # Each name is a page in _pages/. Add `label: Papers` to change the
 # navbar text without changing the URL.
 nav_pages:
-#  - name: about
+  - name: about
 #  - name: publications
 #  - name: talks
   - name: research
@@ -51,6 +51,7 @@ nav_pages:
 #  - name: team
 #  - name: teaching
 #  - name: blog
+  - name: news
 
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
