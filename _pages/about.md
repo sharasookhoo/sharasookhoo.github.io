@@ -11,31 +11,20 @@ permalink: /about/
 <img src="{{ site.photo | prepend: '/images/' | relative_url }}" class="pi-photo" alt="{{ site.name }}" width="160" height="160">
 <div>
 <h2 class="pi-name">{{ site.name }}</h2>
-<p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
-<div class="pi-links">
-{% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
-{% if site.links.cv and site.links.cv != "" %}<a href="{{ site.links.cv | prepend: '/' | relative_url }}" class="icon-link" title="CV" aria-label="CV">{% include icon.html name="cv" %}</a>{% endif %}
-{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
-{% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
-{% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate" aria-label="ResearchGate">{% include icon.html name="researchgate" %}</a>{% endif %}
-</div>
-{% if site.data.pi[0].education %}
-<ul style="margin-top: var(--space-4);">
-{% for education in site.data.pi[0].education %}
-<li>{{ education | replace: "-","&#8211;" }}</li>
-{% endfor %}
-</ul>
-{% endif %}
-</div>
-</div>
+I was born and grew up in Trinidad and Tobago, two small islands in the Caribbean. At seven years old, I decided that I wanted to be a marine biologist because I wanted to go to the beach everyday. As I learnt more about the importance of coral reefs as well as the significant challenges facing these ecosystems, my childhood dream matured into a desire to protect and restore corals. I pursued a B.S. in Marine Biology and Ecology, and a second major in Biochemistry and Molecular Biology at the University of Miami. During this time I worked in several labs including Mote's Coral Health and Disease lab in the Florida Keys and the Cnidarian Immunity lab at the Rosenstiel School of Marine, Atmospheric, and Earth Science. There, I was introduced to the fascinating world of coral microbes. I am currently a PhD candidate in the Collaboration for Ocean Futures Lab (COSL) led by Adrienne Correa at University of California, Berkeley where I investigate the role of viruses in coral health.
 </div>
 
-{% if site.data.grants %}
+{% if site.data.research_experience %}
 <div class="section-card">
-<h3>Grants</h3>
-<ul>
-{% for grant in site.data.grants %}
-<li>{{ grant.name }}</li>
+<h3>Research Experience</h3>
+<ul class="awards-list">
+{% for experience in site.data.research_experience %}
+<li>
+  <strong>{{ experience.name }}</strong> <em>({{ experience.date }})</em>
+  {% if experience.description %}
+  <div class="award-description">{{ experience.description }}</div>
+  {% endif %}
+</li>
 {% endfor %}
 </ul>
 </div>
@@ -44,21 +33,44 @@ permalink: /about/
 {% if site.data.awards %}
 <div class="section-card">
 <h3>Awards</h3>
-<ul>
+<ul class="awards-list">
 {% for award in site.data.awards %}
-<li>{{ award.name | replace: "-","&#8211;" }}</li>
+<li>
+  <strong>{{ award.name | replace: "-","&#8211;" }}</strong> <em>({{ award.date }})</em>
+  {% if award.description %}
+  <div class="award-description">{{ award.description }}</div>
+  {% endif %}
+</li>
 {% endfor %}
 </ul>
 </div>
 {% endif %}
 
-{% if site.data.funders %}
+{% if site.data.mentorship_service %}
 <div class="section-card">
-<h4>Sponsors</h4>
-<div class="sponsor-logos" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-6);">
-{% for funder in site.data.funders %}
-<a href="{{ funder.url }}" target="_blank"><img src="{{ funder.image | prepend: '/images/' | relative_url }}" alt="Funder logo" style="max-height: 80px; max-width: 200px; border-radius: 0;" loading="lazy"></a>
+<h3>Mentorship and Service</h3>
+<ul class="awards-list">
+{% for item in site.data.mentorship_service %}
+<li>
+  <strong>{{ item.name }}</strong> <em>({{ item.date }})</em>
+  {% if item.description %}
+  <div class="award-description">{{ item.description }}</div>
+  {% endif %}
+</li>
 {% endfor %}
-</div>
+</ul>
 </div>
 {% endif %}
+
+<style>
+.awards-list li {
+  margin-bottom: 12px;
+}
+
+.award-description {
+  margin-left: 1.5em;
+  margin-top: 2px;
+}
+</style>
+</div>
+</div>
