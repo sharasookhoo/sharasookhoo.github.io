@@ -1,77 +1,48 @@
 ---
-title: "Research"
-layout: page
-permalink: /research/
+title: "Home"
+layout: homelay
+permalink: /
 ---
 
-# Research
+<h1 class="home-hero">{{ site.name }}</h1>
+<p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
-<div class="research-grid">
-
-<div class="research-card">
-<img src="{{ '/images/research/white_plague.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="white plague disease">
-<div class="research-body">
-<h2 class="research-title">Viruses Associated with White Plague Disease</h2>
-<p class="research-desc">White plague is a tissue loss disease that affects many coral species and has contributed substantially to Caribbean reef decline. Although bacteria have been investigated as etiological agents, a consistent pathogen has not been identified. The role of viruses in white plague disease remains relatively unexplored, with the only study to date focused on DNA viruses. I use transcriptomics and transmission electron microscopy (TEM) to identify actively transcribed DNA and RNA viruses associated with white plague disease. Preliminary results suggest that viruses with sequence similarity to Betaflexiviridae, a family of plant-infecting filamentous single stranded RNA viruses (ssRNAVs) are overrepresented in white plague-affected tissue. Putative filamentous virus-like particles have been observed in Symbiodiniaceae, the coral’s micro-eukaryotic symbiotic partner, and are associated with damage to its chloroplasts. These findings suggest that infection by filamentous ssRNAVs may impair Symbiodiniaceae function and potentially contribute to white plague disease development in corals.</p>
-</div>
+<div class="chip-container" markdown="0">
+<span class="chip">Coral Microbial Ecology</span>
+<span class="chip">Coral Disease</span>
+<span class="chip">Virology</span>
 </div>
 
-<div class="research-card">
-<img src="{{ '/images/research/dinoRNAV.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="dinoRNAV">
-<div class="research-body">
-<h2 class="research-title">Prevalence and Impacts of dinoRNAV Infection in Symbiodniaceae</h2>
-<p class="research-desc">Symbiodiniaceae-infecting positive-sense single-stranded RNA viruses (dinoRNAVs) have been reported in six genera of corals. Additionally, 93% of Porites lobata colonies on the north shore of Moorea, French Polynesia, show detectable dinoRNAV infection. While these viruses seem common, coral holobionts harbor millions of Symbiodiniaceae cells per square centimeter of tissue, and it remains unknown to what extent Symbiodiniaceae communities within coral colonies are infected. Additionally, while it has been hypothesized that dinoRNAVs may play a role in coral bleaching via Symbiodiniaceae lysis, the impact of dinoRNAV infection has not been experimentally explored. I plan to use single cell RNA sequencing to fill these gaps.</p>
-</div>
-</div>
+I am interested in the role of viruses in coral health and disease. Viruses are the most abundant and diverse biological entities on Earth! They infect everything, from humans to bacteria. Corals host a wide diversity of micro-organisms including bacteria, fungi and micro-eukaryotes. Some of these microorganisms play key roles in coral health. For example photosynthesizing dinoflagellates in the family Symbiodiniaceae provide the majority of coral’s energy. We know that viruses infect these symbionts, but we don't know much about the outcome of these infections at the microbe or coral level. It is possible that infected symbionts produce less beneficial products and lower the coral's tolerance to stressors. It is also possible that viral infection causes symbionts to become pathogenic and leads to coral disease. Conversely, viruses may also facilitate horizontal gene transfer of advantageous traits to mutualistic microbes and increase coral resilience. I am interested in uncovering these various effects of symbiont viral infection both at the level of the microbe and the coral using a combination of traditional techniques such as viral isolation and transmission, as well as cutting edge technologies like single cell RNA sequencing.
 
-<div class="research-card">
-<img src="{{ '/images/research/fermentation.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="fermentation of traditional foods">
-<div class="research-body">
-<h2 class="research-title">Microbes Involved in the Fermention of Traditional Foods</h2>
-<p class="research-desc">This is a side project which aims to answer community questions in Moorea, French Polynesia.</p>
-<h2 class="publications">
-</div>
-</div>
+<p><a href="{{ '/research' | relative_url }}">Read more about my research &rarr;</a></p>
 
+{% comment %}
+<div class="callout callout-success" markdown="0">
+<div class="callout-title">{% include icon.html name="award" class="callout-icon" %} Nobel Prize in Physics, 1965</div>
+<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+</div>
+{% endcomment %}
+
+<div class="banner-frame" markdown="0">
+<img src="{{ '/images/banner.webp' | relative_url }}" alt="Feynman diagrams" width="1400" height="449" loading="lazy">
+<div class="banner-caption">Viral infection of Symbiodiniaceae by Betaflexiviridae, a family of filamentous single stranded RNA viruses, may lead to white plague disease development (Sookhoo et al., in prep). Viral replication of dinoRNAVs, a group of icosahedral single stranded RNA viruses, that infect Symbiodiniaceae is triggered by heat stress and may contribute to coral bleaching (Howe-Kerr et al., 2023)</div>
 </div>
 
-<style>
-.research-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 100%;
-}
+{% comment %}
+{% capture selected %}{% bibliography --query @*[selected=true] %}{% endcapture %}
+{% if selected contains "pub-entry" %}
+## Selected publications
 
-.research-card {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 24px;
-  width: 100%;
-}
+<div class="section-card selected-pubs" markdown="0">
+{{ selected }}
+<p style="margin: var(--space-4) 0 0;"><a href="{{ '/publications' | relative_url }}">All publications &rarr;</a></p>
+</div>
+{% endif %}
+{% endcomment %}
 
-.research-card .research-thumb {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
+## About me
 
-.research-card .research-body {
-  flex: 1;
-  min-width: 0;
-}
+I was born and grew up in Trinidad and Tobago, two small islands in the Caribbean. At seven years old, I decided that I wanted to be a marine biologist because I wanted to go to the beach everyday. Today, I'm a graduate student in Collaboration for Ocean Futures lab at UC Berkeley, where I study the role of microbes in coral health.
 
-@media (max-width: 700px) {
-  .research-card {
-    flex-direction: column;
-  }
-
-  .research-card .research-thumb {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-  }
-}
-</style>
+<p><a href="{{ '/awards' | relative_url }}">Read more about me &rarr;</a></p>
