@@ -34,3 +34,45 @@ permalink: /research/
 </div>
 
 </div>
+
+<style>
+.research-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.research-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+}
+
+.research-card .research-thumb {
+  width: 32%;
+  max-width: 320px;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.research-card .research-body {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .research-card {
+    flex-direction: column;
+  }
+
+  .research-card .research-thumb {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+</style>
