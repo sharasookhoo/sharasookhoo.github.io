@@ -9,7 +9,7 @@ permalink: /research/
 <div class="research-grid">
 
 <div class="research-card">
-<img src="{{ '/images/research/white_plague.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="white plague disease">
+<img src="{{ '/images/research/white_plague.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="white plague disease">
 <div class="research-body">
 <h2 class="research-title">Viruses Associated with White Plague Disease</h2>
 <p class="research-desc">White plague is a tissue loss disease that affects many coral species and has contributed substantially to Caribbean reef decline. Although bacteria have been investigated as etiological agents, a consistent pathogen has not been identified. The role of viruses in white plague disease remains relatively unexplored, with the only study to date focused on DNA viruses. I use transcriptomics and transmission electron microscopy (TEM) to identify actively transcribed DNA and RNA viruses associated with white plague disease. Preliminary results suggest that viruses with sequence similarity to Betaflexiviridae, a family of plant-infecting filamentous single stranded RNA viruses (ssRNAVs) are overrepresented in white plague-affected tissue. Putative filamentous virus-like particles have been observed in Symbiodiniaceae, the coral’s micro-eukaryotic symbiotic partner, and are associated with damage to its chloroplasts. These findings suggest that infection by filamentous ssRNAVs may impair Symbiodiniaceae function and potentially contribute to white plague disease development in corals.</p>
@@ -25,7 +25,7 @@ permalink: /research/
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/fermentation.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="fermentation of traditional foods">
+<img src="{{ '/images/research/fermentation.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="fermentation of traditional foods">
 <div class="research-body">
 <h2 class="research-title">Microbes Involved in the Fermention of Traditional Foods</h2>
 <p class="research-desc">This is a side project which aims to answer community questions in Moorea, French Polynesia.</p>
