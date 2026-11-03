@@ -9,21 +9,20 @@ permalink: /allnews.html
 <div class="research-grid">
 
 {% for article in site.data.news %}
+
 <div class="research-card">
 
-  {% if article.image %}
-  <img src="{{ '/images/' | append: article.image | relative_url }}"
-       class="research-thumb"
-       alt="{{ article.headline }}"
-       loading="lazy">
-  {% endif %}
+{% if article.image %}
+<img src="{{ '/images/' | append: article.image | relative_url }}" class="research-thumb" alt="{{ article.headline }}" loading="lazy">
+{% endif %}
 
-  <div class="research-body">
-    <div class="news-date">{{ article.date }}</div>
-    <div class="research-title">{{ article.headline }}</div>
-  </div>
+<div class="research-body">
+<span class="news-date">{{ article.date }}</span>
+<h2 class="research-title">{{ article.headline }}</h2>
+</div>
 
 </div>
+
 {% endfor %}
 
 </div>
@@ -45,6 +44,7 @@ permalink: /allnews.html
 .research-card .research-thumb {
   width: 100%;
   aspect-ratio: 1 / 1;
+  height: auto;
   object-fit: cover;
   display: block;
 }
@@ -54,14 +54,14 @@ permalink: /allnews.html
 }
 
 .news-date {
-  font-size: 0.85rem;
+  display: block;
+  font-size: 0.8rem;
   color: #777;
   margin-bottom: 8px;
 }
 
 .research-title {
   font-size: 1.1rem;
-  font-weight: 600;
   line-height: 1.4;
 }
 
