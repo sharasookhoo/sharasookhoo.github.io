@@ -52,10 +52,8 @@ permalink: /research/
 }
 
 .research-card .research-thumb {
-  width: 32%;
-  max-width: 320px;
-  height: auto;
-  aspect-ratio: 1 / 1;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   flex-shrink: 0;
 }
@@ -72,7 +70,8 @@ permalink: /research/
 
   .research-card .research-thumb {
     width: 100%;
-    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
   }
 }
 </style>
