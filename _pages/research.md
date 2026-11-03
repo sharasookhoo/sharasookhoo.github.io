@@ -33,8 +33,7 @@ permalink: /research/
 
 <div class="research-card">
 <div class="research-image">
-<img src="{{ '/images/research/fermentation.jpg' | relative_url }}" class="research-thumb" width="400" height="200" alt="fermentation of traditional foods">
-<p class="photo-attribution">Photo: [Photographer / source]</p>
+<img src="{{ '/images/research/fermentation.png' | relative_url }}" class="research-thumb" width="400" height="200" alt="fermentation of traditional foods">
 </div>
 <div class="research-body">
 <h2 class="research-title">Microbes Involved in the Fermention of Traditional Foods</h2>
