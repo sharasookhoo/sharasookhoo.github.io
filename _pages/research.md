@@ -38,7 +38,6 @@ permalink: /research/
 <div class="research-body">
 <h2 class="research-title">Microbes Involved in the Fermention of Traditional Foods</h2>
 <p class="research-desc">This is a side project which aims to answer community questions in Moorea, French Polynesia.</p>
-<h2 class="publications">
 </div>
 </div>
 
