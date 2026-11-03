@@ -10,6 +10,7 @@ permalink: /allnews.html
 
 {% for article in site.data.news %}
 <div class="research-card">
+
   {% if article.image %}
   <img src="{{ '/images/' | append: article.image | relative_url }}"
        class="research-thumb"
@@ -18,9 +19,10 @@ permalink: /allnews.html
   {% endif %}
 
   <div class="research-body">
-    <span class="news-date">{{ article.date }}</span>
-    <h2 class="research-title">{{ article.headline }}</h2>
+    <div class="news-date">{{ article.date }}</div>
+    <div class="research-title">{{ article.headline }}</div>
   </div>
+
 </div>
 {% endfor %}
 
@@ -49,6 +51,18 @@ permalink: /allnews.html
 
 .research-body {
   padding: 16px;
+}
+
+.news-date {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.research-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 @media (max-width: 900px) {
